@@ -1,0 +1,178 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+header {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-black:hover {
+  background-color: #222;
+}
+
+.green-btn {
+  background-color: #b9ff66;
+  color: black;
+  font-weight: bold;
+}
+
+.green-btn:hover {
+  background-color: #a8e85a;
+}
+
+
+.hero {
+  padding: 60px 5%;
+  display: flex;
+  gap: 40px;
+  background-color: #f8f9fa;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  max-width: 100%;
+}
+
+
+.clients {
+  padding: 30px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.clients img {
+  height: 40px;
+}
+
+
+.services {
+  padding: 60px 5%;
+  background-color: #f8f9fa;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.card.green {
+  background-color: #b9ff66;
+}
+
+.card.black {
+  background-color: #191a23;
+  color: white;
+}
+
+
+.cta {
+  padding: 60px 5%;
+  background-color: #f8f9fa;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.cta-box {
+  flex: 1;
+}
+
+.cta-box h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #191a23;
+  color: white;
+  padding: 50px 5% 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
